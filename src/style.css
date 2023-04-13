@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+
+html, body {
+  background-color: #1A191C;
+  font-family: 'Nunito', sans-serif;
+}
+
+.box-shadow {
+  box-shadow: 0 0 60px 20px #000;
+}
