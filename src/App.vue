@@ -2,9 +2,10 @@
   import Header from './components/Header.vue'
   import Hero from './components/Hero.vue'
   import AboutUs from './components/AboutUs.vue'
+  import Products from './components/Products.vue'
 
   export default {
-    components: { Header, Hero, AboutUs },
+    components: { Header, Hero, AboutUs, Products },
     data() {
       return {
         text: 'Sample Text'
@@ -19,4 +20,5 @@
     <Header />
   </div>
   <AboutUs />
+  <Products />
 </template>

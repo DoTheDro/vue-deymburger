@@ -4,13 +4,31 @@
     export default {
         data() {
             return {
-                text: 'About Us sample text',
-                image: aboutImage
+                image: aboutImage,
+                sectionHeader: 'About Us',
+                content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. A consequuntur impedit corrupti deserunt obcaecati totam aspernatur amet, officiis repellat aperiam.',
+                franchises: 9,
+                customers: 87
             }
         }
     }
 </script>
 
 <template>
-    <h1 class="text-2xl text-gray-400">{{ text }}</h1>
+    <div class="py-10" id="about"></div>
+    <div class="flex flex-col gap-12 pb-16">
+        <h2 class="text-4xl text-yellow-400 font-bold text-center">{{ sectionHeader }}</h2>
+        <p class="text-lg text-gray-200 text-center">{{ content }}</p>
+        <div class="flex justify-center gap-10">
+            <div class="flex flex-col text-center gap-1">
+                <p class="text-xl text-yellow-400 font-semibold">{{ franchises }}</p>
+                <p class="text-lg text-yellow-400 font-semibold">Franchises</p>
+            </div>
+
+            <div class="flex flex-col text-center gap-1">
+                <p class="text-xl text-yellow-400 font-semibold">{{ customers }}</p>
+                <p class="text-lg text-yellow-400 font-semibold">Burgers</p>
+            </div>
+        </div>
+    </div>
 </template>

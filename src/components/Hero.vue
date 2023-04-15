@@ -35,7 +35,7 @@
             </div>
         </div>
         <div class="-mb-20">
-            <img class="" :src="imageSmall" alt="Burger Image">
+            <img class="m-auto" :src="imageSmall" alt="Burger Image">
         </div>
     </div>
 </template>

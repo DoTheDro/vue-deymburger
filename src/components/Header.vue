@@ -4,7 +4,9 @@
     export default {
         data() {
             return {
-                logo: logo
+                logo: logo,
+                header: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
+                content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nemo doloremque repudiandae facilis, quod dignissimos id iusto praesentium quisquam tempora atque in magni vero exercitationem?'
             }
         }
     }
@@ -17,12 +19,11 @@
                 <img class="" :src="logo" alt="Site Logo">
                 <a href="">How It Works</a>
             </div>
-            <h1 class="text-2xl text-gray-950 font-bold">Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
-            <p class="text-baseg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nemo doloremque repudiandae facilis, quod dignissimos id iusto praesentium quisquam tempora atque in magni vero exercitationem?</p>
+            <h1 class="text-2xl text-gray-950 font-bold">{{ header }}</h1>
+            <p class="text-baseg">{{ content }}</p>
             <div>
                 <a class="text-base p-2 border-gray-900 border-2 rounded-md flex justify-center w-32" href="">How It Works</a>
             </div>
         </div>
     </div>
-    <h1 class="text-2xl text-gray-100">{{ text }}</h1>
 </template>
