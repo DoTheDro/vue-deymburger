@@ -7,6 +7,7 @@
 html, body {
   background-color: #1A191C;
   font-family: 'Nunito', sans-serif;
+  scroll-behavior: smooth;
 }
 
 .box-shadow {
@@ -19,4 +20,41 @@ div.my-swiper {
 
 .custom-product-width {
   max-width: 80%;
+}
+
+.custom-product-height {
+  min-height: 400px;
+  width: 90%;
+}
+
+.custom-max-width {
+  max-width: 140px;
+}
+
+span.swiper-pagination-bullet {
+  background: #FFF;
+}
+
+span.swiper-pagination-bullet-active {
+  background: #FACC15;
+}
+
+@media screen and (min-width: 641px) {
+  .box-shadow {
+    box-shadow: 0 0 30px 15px #000;
+  }
+
+  .custom-product-height {
+    min-height: 400px;
+    width: 95%;
+  }
+
+}
+
+@media screen and (min-width: 769px) {
+  .custom-product-height {
+    min-height: 420px;
+    max-width: 320px;
+  }
+
 }
