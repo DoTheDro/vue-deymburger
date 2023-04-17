@@ -13,7 +13,10 @@
 </script>
 
 <template>
-    <div class="bg-gray-100 -mt-3 mx-4 pt-16 box-shadow rounded sm:pt-0 sm:w-2/4 sm:bg-gray-800 sm:absolute sm:z-10 sm:m-0 sm:rounded-none sm:h-full sm:top-0 sm:flex sm:flex-col sm:rounded-br-md sm:items-end">
+    <div data-aos="fade-right"
+        data-aos-duration="700"
+        data-aos-once="true"    
+        class="bg-gray-100 -mt-3 mx-4 pt-16 box-shadow rounded sm:pt-0 sm:w-2/4 sm:bg-gray-800 sm:absolute sm:z-10 sm:m-0 sm:rounded-none sm:h-full sm:top-0 sm:flex sm:flex-col sm:rounded-br-md sm:items-end">
         <div class="p-4 flex flex-col gap-6 sm:max-w-screen-sm sm:h-full sm:justify-between md:justify-center md:gap-12 lg:relative">
             <div class="hidden sm:flex sm:justify-between sm:items-center lg:absolute lg:top-0 lg:mt-4">
                 <div class="flex items-center gap-3">

@@ -8,6 +8,7 @@ html, body {
   background-color: #1A191C;
   font-family: 'Nunito', sans-serif;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .box-shadow {
